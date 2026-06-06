@@ -1,14 +1,61 @@
-<!doctype html>
-<html lang="ta">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta http-equiv="refresh" content="30">
-  <title>Panchapatchi</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-</head>
-
-
-
-</html>
+<!doctype html><html lang="ta"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Sarakalai Panchapatchi</title><link rel="stylesheet" href="assets/css/style.css"></head><body><nav class="nav"><div class="nav-inner"><div class="brand">🌙 Sarakalai Panchapatchi</div><div class="menu"><a class="btn" href="index.html">Home</a><a class="btn" href="profile.html">Profile</a><a class="btn" href="reference.html">Reference</a></div></div></nav><main class="wrap">
+<section class="live-card v032">
+  <div class="live-card-head v032-head">
+    <div>
+      <div class="v032-title-line"><span id="moonPhaseTitle">--</span><span id="todayText">--</span></div>
+      <div class="v032-meta-line"><span id="rasiText">--</span><span id="nakText">--</span><span id="padaText">--</span><span id="lordText">--</span></div>
+    </div>
+    <button id="changeTimingBtn" class="tiny-btn v032-change">⚙ Change Time</button>
+  </div>
+  <div class="live-section">
+    <div class="v032-birds">
+      <div class="v032-bird-box"><small>அதிகாரப்பட்சி</small><div class="emoji" id="adhiEmoji">--</div><b id="adhiText">--</b></div>
+      <div class="v032-bird-box"><small>படுபட்சி</small><div class="emoji" id="paduEmoji">--</div><b id="paduText">--</b></div>
+    </div>
+    
+  </div>
+  <div class="live-section">
+    <div class="v033-main-row">
+      <div>
+        <div class="samam-label" id="samamText">day samam</div>
+        <div class="samam-dots" id="samamDots"></div>
+        <div class="v032-activity">
+          <div class="v032-activity-title" id="currentTitle">🐦 --</div>
+          <div class="v032-remaining" id="countdownText">--:-- remaining</div>
+          <div class="duration-line" id="activityDurationText">--:-- total</div>
+          <div class="progress"><div class="bar" id="activityBar"></div></div>
+          <div class="percent-line" id="activityPercentText">0% complete</div>
+          <div class="quality-line" id="qualityText">--</div>
+          <div class="twelve-row" id="twelveRow"></div>
+          <div class="twelve-caption" id="twelveCaption">12 parts</div>
+          <div class="v032-inner-line">
+            <div class="inner-dots" id="innerDots"></div>
+            <div class="percent-line" id="innerText">Inner Part -- / 5</div>
+          </div>
+        </div>
+      </div>
+      <aside class="v033-lunar-side">
+        <div id="tithiStrip" class="v033-lunar-curve"></div>
+        <div class="v033-tithi-name" id="tithiCaption">Active Tithi</div>
+      </aside>
+    </div>
+    <div class="stats v032-hidden">
+      <div class="stat"><b>Sunrise / Sunset</b><span id="sunText">--</span></div>
+      <div class="stat"><b>Period</b><span id="periodText">--</span></div>
+      <div class="stat"><b>Time</b><span id="currentPath">--</span></div>
+    </div>
+  </div>
+  </div>
+  <div class="live-section" id="timingChoice">
+    <div class="controls"><button class="primary" id="locateBtn">Use My Location</button><button id="manualBtn">Manual Sunrise/Sunset</button><button id="fallbackBtn">Traditional 6am/6pm</button></div>
+    <div class="input-panel" id="manualPanel" style="display:none"><b>Manual timing</b><br><input id="manualSunrise" type="time" step="1" value="06:00:00"><input id="manualSunset" type="time" step="1" value="18:00:00"><button class="primary" id="setManualBtn">Set Timing</button></div>
+    <div class="status"><b id="statusText">Loading</b><span id="statusDetails">Preparing.</span></div>
+  </div>
+</section>
+<section class="section"><div class="section-head"><h2>Cards from now to next week</h2><span class="badge">Scroll timeline</span></div><div class="pad"><div class="card-list" id="cardList"></div></div></section>
+</main><script src="assets/js/app.js"></script><div class="mobile-bottom-nav">
+<a class="active" href="index.html"><span class="ico">🏠</span><span>Live</span></a>
+<a class="" href="profile.html"><span class="ico">👤</span><span>Profile</span></a>
+<a class="" href="reference.html"><span class="ico">📖</span><span>Info</span></a>
+</div>
+</body></html>
