@@ -16,38 +16,42 @@ input,
 .mobile-bottom-nav{display:none}
 
 @media(max-width:760px){
-  body{padding-bottom:82px}
+  /* reduce overall bottom padding to make navbar feel smaller */
+  body{padding-bottom:72px}
   .nav{
     position:static;
     border-bottom:0;
     background:transparent;
     backdrop-filter:none;
   }
+  /* reduce nav-inner padding */
   .nav-inner{
-    padding:8px 12px 0;
+    padding:6px 8px 0;
   }
   .nav .menu{
     display:none;
   }
+  /* slightly smaller brand text */
   .brand{
-    font-size:13px;
+    font-size:12px;
     opacity:.9;
   }
+  /* compact mobile bottom nav */
   .mobile-bottom-nav{
     position:fixed;
     z-index:100;
-    left:10px;
-    right:10px;
-    bottom:10px;
+    left:8px;
+    right:8px;
+    bottom:8px;
     display:grid;
-    grid-template-columns:repeat(4,1fr);
-    gap:6px;
-    padding:8px;
+    grid-template-columns:repeat(3,1fr);
+    gap:4px;
+    padding:6px;
     border:1px solid #2d4774;
-    border-radius:22px;
+    border-radius:18px;
     background:rgba(5,12,25,.92);
-    backdrop-filter:blur(18px);
-    box-shadow:0 12px 40px rgba(0,0,0,.45);
+    backdrop-filter:blur(12px);
+    box-shadow:0 8px 24px rgba(0,0,0,.35);
   }
   .mobile-bottom-nav a{
     text-decoration:none;
@@ -55,13 +59,13 @@ input,
     display:grid;
     place-items:center;
     gap:2px;
-    border-radius:16px;
-    padding:7px 4px;
-    font-size:11px;
+    border-radius:12px;
+    padding:5px 4px;
+    font-size:10px;
     font-weight:900;
   }
   .mobile-bottom-nav a .ico{
-    font-size:18px;
+    font-size:16px;
     line-height:1;
   }
   .mobile-bottom-nav a.active{
@@ -100,7 +104,7 @@ input,
 
 .tithi-strip{display:flex;align-items:center;gap:6px;overflow-x:auto;padding:6px 2px}.tithi-dot{min-width:24px;height:24px;border-radius:50%;background:#0d1930;border:1px solid #31476e;display:grid;place-items:center}
 .live-info-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}.live-info-grid div{background:#091831;border:1px solid #1d3154;border-radius:14px;padding:10px}.live-info-grid small{disp[...]
-.role-inline{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.role-inline div{background:#091831;border:1px solid #1d3154;border-radius:14px;padding:10px;text-align:center}.role-inline small{display:block[...]
+.role-inline{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.role-inline div{background:#091831;border:1px solid #1d3154;border-radius:14px;padding:10px;text-align:center}.role-inline s[...]
 @media(max-width:760px){.activity-live{grid-template-columns:74px 1fr}.activity-live .bird-now{width:74px;height:74px;font-size:48px}.activity-name{font-size:20px}.remaining{font-size:25px}.role-[...]
 
 
