@@ -1,4 +1,3 @@
-
 const PROFILE_KEY='sarakalai_profile_v1';
 function profileLoad(){
   try{return JSON.parse(localStorage.getItem(PROFILE_KEY)||'null')}catch(e){return null}
@@ -32,7 +31,14 @@ function profileCurve(info){
     '       '+dot(7),
     '      ╱',
     end
-  ].join('\\n');
+  ].join('\n');
+}
+function formatDateForInput(d){
+  return d.toISOString().slice(0,10);
+}
+function formatTimeForInput(d){
+  const pad=(n)=>n.toString().padStart(2,'0');
+  return `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
 }
 function renderProfile(){
   const data=profileLoad();
@@ -41,7 +47,6 @@ function renderProfile(){
     if(card) card.style.display='none';
     return;
   }
-  document.getElementById('profileName').value=data.name||'';
   document.getElementById('profileDob').value=data.dob||'';
   document.getElementById('profileTob').value=data.tob||'';
 
@@ -50,7 +55,7 @@ function renderProfile(){
   const card=document.getElementById('profileCard');
   card.style.display='block';
 
-  document.getElementById('profileTitle').textContent=(data.name&&data.name.trim())?data.name.trim():'Birth Profile';
+  document.getElementById('profileTitle').textContent='Birth Profile';
   document.getElementById('profileBirthText').textContent=`${data.dob} · ${data.tob}`;
   document.getElementById('profilePhase').textContent=`${info.phase==='Rising Moon'?'வளர்பிறை':'தேய்பிறை'} · ${info.tithi}`;
   document.getElementById('profileLunarCurve').textContent=profileCurve(info);
@@ -64,14 +69,17 @@ function renderProfile(){
 }
 function initProfile(){
   const saved=profileLoad();
+  const now=new Date();
   if(saved){
-    if(saved.name) document.getElementById('profileName').value=saved.name;
     if(saved.dob) document.getElementById('profileDob').value=saved.dob;
     if(saved.tob) document.getElementById('profileTob').value=saved.tob;
+  }else{
+    // default inputs to current date/time
+    document.getElementById('profileDob').value=formatDateForInput(now);
+    document.getElementById('profileTob').value=formatTimeForInput(now);
   }
   document.getElementById('saveProfileBtn').onclick=()=>{
     profileSave({
-      name:document.getElementById('profileName').value,
       dob:document.getElementById('profileDob').value,
       tob:document.getElementById('profileTob').value
     });
@@ -80,9 +88,10 @@ function initProfile(){
   document.getElementById('editProfileBtn').onclick=()=>window.scrollTo({top:0,behavior:'smooth'});
   document.getElementById('clearProfileBtn').onclick=()=>{
     profileClear();
-    document.getElementById('profileName').value='';
-    document.getElementById('profileDob').value='';
-    document.getElementById('profileTob').value='';
+    // reset inputs to now after clearing
+    const d=new Date();
+    document.getElementById('profileDob').value=formatDateForInput(d);
+    document.getElementById('profileTob').value=formatTimeForInput(d);
     renderProfile();
   };
   renderProfile();
