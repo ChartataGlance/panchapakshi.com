@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Panchapatchi Profile</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="nav"><div class="nav-inner"><div class="brand">🌙 Sarakalai Panchapatchi</div><div class="menu"><a class="btn" href="index.html">Home</a><a class="btn" href="profile.html">Profile</a><a class="btn" href="reference.html">Reference</a></div></div></nav>
+<main class="wrap">
+  <section class="section">
+    <div class="section-head"><h2>Visitor Profile</h2><span class="badge">Stored in this browser</span></div>
+    <div class="pad">
+      <div class="profile-form">
+        <div>
+          <label for="profileName">Name optional</label>
+          <input id="profileName" type="text" placeholder="Your name">
+        </div>
+        <div>
+          <label for="profileDob">Date of birth</label>
+          <input id="profileDob" type="date">
+        </div>
+        <div>
+          <label for="profileTob">Time of birth</label>
+          <input id="profileTob" type="time" step="1">
+        </div>
+      </div>
+      <div class="profile-actions">
+        <button class="primary" id="saveProfileBtn">Save Profile</button>
+        <button id="editProfileBtn">Change Details</button>
+        <button id="clearProfileBtn">Clear Profile</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="profile-card" id="profileCard" style="display:none">
+    <div class="profile-card-head">
+      <div>
+        <h1 id="profileTitle">Profile</h1>
+        <div class="profile-sub" id="profileBirthText">--</div>
+      </div>
+      <a class="btn tiny-btn" href="index.html">Live</a>
+    </div>
+
+    <div class="profile-big">
+      <div class="phase" id="profilePhase">--</div>
+      <div class="v033-lunar-side" style="margin-top:12px;min-height:220px">
+        <div class="v033-lunar-curve" id="profileLunarCurve">--</div>
+        <div class="v033-tithi-name" id="profileTithi">--</div>
+      </div>
+    </div>
+
+    <div class="profile-grid">
+      <div><small>ராசி</small><b id="profileRasi">--</b></div>
+      <div><small>நட்சத்திரம்</small><b id="profileNak">--</b></div>
+      <div><small>பாதம்</small><b id="profilePada">--</b></div>
+      <div><small>அதிபதி</small><b id="profileLord">--</b></div>
+      <div><small>Birth Weekday</small><b id="profileWeekday">--</b></div>
+      <div><small>Moon Degree</small><b id="profileDegree">--</b></div>
+    </div>
+    <div class="profile-note">Profile data is saved only in this browser using localStorage. No server account is created.</div>
+  </section>
+</main>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/profile.js"></script>
+<div class="mobile-bottom-nav">
+<a class="" href="index.html"><span class="ico">🏠</span><span>Live</span></a>
+<a class="active" href="profile.html"><span class="ico">👤</span><span>Profile</span></a>
+<a class="" href="reference.html"><span class="ico">📖</span><span>Info</span></a>
+</div>
+</body>
+</html>
