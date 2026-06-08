@@ -104,7 +104,7 @@ function qualityForActivity(activity){
 }
 function renderTwelveParts(c){
  const root=$('twelveRow');if(!root||!c)return;
- const now=new Date();
+ const now=state.renderNow||new Date();
  const progress=Math.min(1,Math.max(0,(now-c.from)/c.duration));
  if(now.getTime()-lastTwelveRender<2000 && root.children.length){return;}
  lastTwelveRender=now.getTime();
@@ -122,7 +122,7 @@ function renderTwelveParts(c){
 }
 function renderCurrent(){
  let c=state.current;if(!c)return;
- let now=new Date(),remain=c.to-now,prog=Math.min(100,Math.max(0,((now-c.from)/c.duration)*100));
+ let now=state.renderNow||new Date(),remain=c.to-now,prog=Math.min(100,Math.max(0,((now-c.from)/c.duration)*100));
  const meta=activityMeta(c.activity_en);
  const q=qualityForActivity(c.activity_en);
  if($('currentTitle')) $('currentTitle').innerHTML=`<span class="current-bird-hero">${c.bird.icon}</span><span><span class="live-hero-meta"><span class="current-bird-name">${c.bird.name}</span><span class="atcharam-badge"><small>அட்சரம்</small><b>${c.atcharam || '-'}</b></span></span><span class="current-activity-line">${meta.emoji} ${c.activity_ta || meta.ta} • ${meta.en}</span><span class="good-time-badge">${meta.good}</span></span>`;
@@ -234,6 +234,6 @@ async function init(){
      if($('statusDetails')) $('statusDetails').textContent='Use location for local timing, or choose another method.';
    }
  }
- setInterval(()=>{if(APP){build();renderCurrent()}},1000)
+ if(!window.SARAKALAI_LOOKUP_PAGE){setInterval(()=>{if(APP){build();renderCurrent()}},1000)}
 }
 init();

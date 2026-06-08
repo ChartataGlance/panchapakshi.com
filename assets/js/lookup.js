@@ -28,17 +28,19 @@ function buildLookup(){
    const item={...row,bird,from,to,duration:dur,samam,phase:mp.phase,moonDeg:mp.deg,moonBlock:mp.block,tithiIndex:mp.tithiIndex,tithi:mp.tithi,siderealDeg:mp.siderealDeg,nakTamil:mp.nakTamil,nakEnglish:mp.nakEnglish,pada:mp.pada,lord:mp.lord,rasiTamil:mp.rasiTamil,rasiEnglish:mp.rasiEnglish,period,dayEn,dayTa,adhi:APP.weekly[mp.phase][dayEn].adhi,padu:APP.weekly[mp.phase][dayEn].padu};
    cards.push(item); if(d>=from&&d<to) current=item; cursor=to;
  }
- state.current=current||cards[0]; state.timeline=cards;
+ state.current=current||cards[0]; state.timeline=cards; state.renderNow=new Date(LOOKUP_DATE);
 }
 function renderLookupList(){
  const list=$('cardList'); if(!list||!state.timeline)return;
  list.innerHTML='';
  state.timeline.forEach(c=>{const el=document.createElement('div');el.className='timeline-card '+CLS[c.activity_en]+(state.current&&c.from.getTime()===state.current.from.getTime()?' active':'');el.innerHTML=`<div class="row"><b>${c.bird.icon} ${c.bird.name}</b><span>${fmt(c.from)} → ${fmt(c.to)}</span></div><p>${c.activity_icon||''} ${c.activity_ta} • ${c.activity_en}</p><span class="mini">${c.period} · Samam ${c.samam} · அட்சரம் ${c.atcharam||'-'}</span>`;list.appendChild(el)});
 }
-function renderLookup(){buildLookup();renderCurrent();renderLookupList();if($('currentPath'))$('currentPath').textContent=`Lookup ${dval(LOOKUP_DATE)} ${tval(LOOKUP_DATE)}`}
+function renderLookup(){lastTwelveRender=0;buildLookup();renderCurrent();renderLookupList();
+ const live=document.querySelector('.live-card'); if(live){live.classList.add('lookup-refresh'); setTimeout(()=>live.classList.remove('lookup-refresh'),180);}
+ if($('currentPath'))$('currentPath').textContent=`Lookup ${dval(LOOKUP_DATE)} ${tval(LOOKUP_DATE)}`}
 function initLookup(){
  const s=loadLookup(); LOOKUP_DATE=s&&s.date&&s.time?new Date(`${s.date}T${s.time}`):new Date(); setInputs(LOOKUP_DATE);
- ['lookupDate','lookupTime'].forEach(id=>{const el=$(id); if(el){el.addEventListener('input',()=>{LOOKUP_DATE=getInputs();saveLookup(LOOKUP_DATE);renderLookup()});el.addEventListener('change',()=>{LOOKUP_DATE=getInputs();saveLookup(LOOKUP_DATE);renderLookup()})}});
+ ['lookupDate','lookupTime'].forEach(id=>{const el=$(id); if(el){['input','change','keyup'].forEach(evt=>el.addEventListener(evt,()=>{LOOKUP_DATE=getInputs();saveLookup(LOOKUP_DATE);renderLookup()}))}});
  if($('lookupNowBtn'))$('lookupNowBtn').onclick=()=>{LOOKUP_DATE=new Date();setInputs(LOOKUP_DATE);saveLookup(LOOKUP_DATE);renderLookup()};
  const wait=setInterval(()=>{if(APP){clearInterval(wait);renderLookup();setInterval(renderLookup,1000)}},100);
 }

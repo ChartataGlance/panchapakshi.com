@@ -577,3 +577,7 @@ input,
 .lookup-dock input{width:100%;border:1px solid #2d4774;border-radius:12px;background:#081327;color:#fff;padding:10px;font-family:inherit}
 .lookup-dock button{height:41px;border-radius:12px}
 @media(max-width:760px){.lookup-dock{bottom:54px}.lookup-dock-inner{grid-template-columns:1fr 1fr 58px;padding:8px}.lookup-dock input{padding:9px 7px;font-size:13px}.lookup-dock button{padding:8px 6px;font-size:12px}}
+
+/* v048 lookup reload fix */
+.lookup-page .live-card{transition:box-shadow .2s ease, transform .2s ease}
+.lookup-page .live-card.lookup-refresh{box-shadow:0 0 0 2px rgba(255,197,51,.35),0 0 42px rgba(255,197,51,.18);transform:translateY(-1px)}
