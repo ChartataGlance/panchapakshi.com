@@ -151,8 +151,8 @@ function setMode(m, save=true){
    if(save) saveTiming('fallback');
    showTimingChoices(false);
    if($('manualPanel')) $('manualPanel').style.display='none';
-   $('statusText').textContent='Traditional fallback active';
-   $('statusDetails').textContent='06:00 sunrise / 18:00 sunset';
+   if($('statusText')) $('statusText').textContent='Traditional fallback active';
+   if($('statusDetails')) $('statusDetails').textContent='06:00 sunrise / 18:00 sunset';
    refresh();
  }
 }
@@ -163,13 +163,13 @@ function useManual(){
  saveTiming('manual',{sunrise,sunset});
  showTimingChoices(false);
  if($('manualPanel')) $('manualPanel').style.display='none';
- $('statusText').textContent='Manual timing active';
- $('statusDetails').textContent=`Sunrise ${sunrise} / Sunset ${sunset}`;
+ if($('statusText')) $('statusText').textContent='Manual timing active';
+ if($('statusDetails')) $('statusDetails').textContent=`Sunrise ${sunrise} / Sunset ${sunset}`;
  refresh();
 }
 function useLocation(){
- $('statusText').textContent='Requesting location...';
- $('statusDetails').textContent='Checking GPS';
+ if($('statusText')) $('statusText').textContent='Requesting location...';
+ if($('statusDetails')) $('statusDetails').textContent='Checking GPS';
  if(!navigator.geolocation){setMode('manual');return}
  navigator.geolocation.getCurrentPosition(p=>{
    state.lat=p.coords.latitude;
@@ -179,12 +179,12 @@ function useLocation(){
    showTimingChoices(false);
    if($('manualPanel')) $('manualPanel').style.display='none';
    refresh();
-   $('statusText').textContent='Local timing active';
-   $('statusDetails').textContent=`Saved location · Sunrise ${fmt(state.sunrise)} / Sunset ${fmt(state.sunset)}`;
+   if($('statusText')) $('statusText').textContent='Local timing active';
+   if($('statusDetails')) $('statusDetails').textContent=`Saved location · Sunrise ${fmt(state.sunrise)} / Sunset ${fmt(state.sunset)}`;
  },e=>{
    console.warn(e);
-   $('statusText').textContent='Location unavailable';
-   $('statusDetails').textContent='Choose manual timing or traditional fallback.';
+   if($('statusText')) $('statusText').textContent='Location unavailable';
+   if($('statusDetails')) $('statusDetails').textContent='Choose manual timing or traditional fallback.';
    showTimingChoices(true);
  },{enableHighAccuracy:false,timeout:12000,maximumAge:300000})
 }
@@ -207,22 +207,22 @@ async function init(){
    clearSavedTiming();
    showTimingChoices(true);
    if($('manualPanel')) $('manualPanel').style.display='none';
-   $('statusText').textContent='Choose timing method';
-   $('statusDetails').textContent='Use location, manual sunrise/sunset, or traditional 6am/6pm.';
+   if($('statusText')) $('statusText').textContent='Choose timing method';
+   if($('statusDetails')) $('statusDetails').textContent='Use location, manual sunrise/sunset, or traditional 6am/6pm.';
  };
 
  const saved=loadSavedTiming();
  if(saved && saved.mode==='location' && typeof saved.lat==='number' && typeof saved.lon==='number'){
    state.mode='location'; state.lat=saved.lat; state.lon=saved.lon;
    showTimingChoices(false); refresh();
-   $('statusText').textContent='Local timing active';
-   $('statusDetails').textContent=`Saved location · Sunrise ${fmt(state.sunrise)} / Sunset ${fmt(state.sunset)}`;
+   if($('statusText')) $('statusText').textContent='Local timing active';
+   if($('statusDetails')) $('statusDetails').textContent=`Saved location · Sunrise ${fmt(state.sunrise)} / Sunset ${fmt(state.sunset)}`;
  }else if(saved && saved.mode==='manual'){
    if($('manualSunrise')) $('manualSunrise').value=saved.sunrise||'06:00:00';
    if($('manualSunset')) $('manualSunset').value=saved.sunset||'18:00:00';
    state.mode='manual'; showTimingChoices(false); refresh();
-   $('statusText').textContent='Manual timing active';
-   $('statusDetails').textContent=`Saved manual timing · Sunrise ${$('manualSunrise').value} / Sunset ${$('manualSunset').value}`;
+   if($('statusText')) $('statusText').textContent='Manual timing active';
+   if($('statusDetails')) $('statusDetails').textContent=`Saved manual timing · Sunrise ${$('manualSunrise').value} / Sunset ${$('manualSunset').value}`;
  }else if(saved && saved.mode==='fallback'){
    setMode('fallback', false);
  }else{
@@ -230,8 +230,8 @@ async function init(){
    if($('statusText')){
      setMode('fallback', false);
      showTimingChoices(true);
-     $('statusText').textContent='Choose timing method';
-     $('statusDetails').textContent='Use location for local timing, or choose another method.';
+     if($('statusText')) $('statusText').textContent='Choose timing method';
+     if($('statusDetails')) $('statusDetails').textContent='Use location for local timing, or choose another method.';
    }
  }
  setInterval(()=>{if(APP){build();renderCurrent()}},1000)
