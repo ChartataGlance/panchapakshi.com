@@ -508,3 +508,72 @@ input,
 .lunar-arc-fixed .arc-mark{position:absolute;width:13px!important;height:13px!important;border-radius:50%;border:1px solid #31476e;background:#0d1930}.lunar-arc-fixed .arc-mark.passed{background:#31476e}.lunar-arc-fixed .arc-mark.active{background:var(--gold);border-color:var(--gold);box-shadow:0 0 18px rgba(255,197,51,.85);transform:scale(1.35)}
 .lunar-arc-fixed .m1{left:8%!important;top:32px!important}.lunar-arc-fixed .m2{left:15%!important;top:21px!important}.lunar-arc-fixed .m3{left:22%!important;top:13px!important}.lunar-arc-fixed .m4{left:29%!important;top:7px!important}.lunar-arc-fixed .m5{left:36%!important;top:4px!important}.lunar-arc-fixed .m6{left:43%!important;top:2px!important}.lunar-arc-fixed .m7{left:50%!important;top:1px!important}.lunar-arc-fixed .m8{left:57%!important;top:2px!important}.lunar-arc-fixed .m9{left:64%!important;top:4px!important}.lunar-arc-fixed .m10{left:71%!important;top:7px!important}.lunar-arc-fixed .m11{left:78%!important;top:13px!important}.lunar-arc-fixed .m12{left:85%!important;top:21px!important}.lunar-arc-fixed .m13{left:92%!important;top:32px!important}
 .v033-tithi-name{font-size:13px!important;margin-top:2px!important;color:var(--gold);font-weight:950;text-align:center}.v034-lunar-small{display:inline-block;margin-left:6px;color:var(--muted);font-size:10px!important}
+
+/* v043 animated 12-part progress, no Part text */
+.twelve-row{
+  position:relative;
+  margin-top:10px!important;
+  padding:8px 2px 6px!important;
+  overflow:visible!important;
+}
+.twelve-bubble{position:relative}
+.twelve-bubble.active::after{
+  content:"";
+  position:absolute;
+  inset:-7px;
+  border-radius:999px;
+  border:2px solid rgba(255,197,51,.55);
+  animation:ppPulse 1.15s ease-out infinite;
+}
+.twelve-bubble.active{
+  animation:ppActiveBeat 1.15s ease-in-out infinite;
+}
+.twelve-bubble.passed{
+  box-shadow:0 0 8px rgba(255,197,51,.18);
+}
+.twelve-caption{display:none!important}
+@keyframes ppPulse{
+  0%{transform:scale(.7);opacity:.9}
+  100%{transform:scale(1.45);opacity:0}
+}
+@keyframes ppActiveBeat{
+  0%,100%{transform:scale(1.18)}
+  50%{transform:scale(1.32)}
+}
+
+/* v044 atcharam + running horizontal progress */
+.v032-activity-title{grid-template-columns:92px 1fr!important;gap:14px!important;align-items:center!important}
+.current-bird-hero{font-size:86px!important;line-height:1!important;filter:drop-shadow(0 0 22px rgba(255,197,51,.32))!important}
+.current-bird-name{font-size:38px!important;line-height:1!important}
+.live-hero-meta{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.atcharam-badge{margin-left:auto;min-width:58px;text-align:center;padding:8px 10px;border-radius:16px;border:1px solid rgba(255,197,51,.45);background:rgba(255,197,51,.10);color:var(--gold);font-weight:950}
+.atcharam-badge small{display:block;font-size:9px;color:#cfe0ff;text-transform:uppercase;margin-bottom:1px}.atcharam-badge b{display:block;font-size:28px;line-height:1}
+.quality-line{display:none!important}.good-time-badge{margin-top:7px!important}
+.twelve-row{--progress:0%;position:relative!important;height:46px;padding:8px 0!important;margin-top:12px!important;overflow:visible!important}
+.twelve-row::before{content:"";position:absolute;left:0;right:0;top:50%;height:6px;transform:translateY(-50%);border-radius:999px;background:#0b1831;border:1px solid #243a60}
+.twelve-row::after{content:"";position:absolute;left:0;top:50%;width:var(--progress);height:6px;transform:translateY(-50%);border-radius:999px;background:linear-gradient(90deg,rgba(255,197,51,.95),rgba(255,240,160,.95));box-shadow:0 0 18px rgba(255,197,51,.35);transition:width .9s linear}
+.twelve-bubble{z-index:2;background:#0d1930!important}.twelve-bubble.passed,.twelve-bubble.active{background:var(--gold)!important;color:#071225!important;border-color:var(--gold)!important}
+.twelve-bubble.active{animation:none!important;box-shadow:0 0 18px rgba(255,197,51,.75)!important}.twelve-bubble.active::after{display:none!important}
+@media(max-width:760px){.v032-activity-title{grid-template-columns:84px 1fr!important}.current-bird-hero{font-size:80px!important}.current-bird-name{font-size:34px!important}.atcharam-badge{min-width:52px;padding:7px 8px}.atcharam-badge b{font-size:25px}}
+@media(max-width:390px){.v032-activity-title{grid-template-columns:76px 1fr!important}.current-bird-hero{font-size:72px!important}.current-bird-name{font-size:31px!important}}
+
+/* v045 smoother running 12-part progress */
+.twelve-row::after{
+  transition:width 2s linear !important;
+  background:
+    linear-gradient(90deg, rgba(255,197,51,.95), rgba(255,240,160,.95), rgba(255,197,51,.95)) !important;
+  background-size:200% 100% !important;
+  animation:ppRunFill 2s linear infinite !important;
+}
+@keyframes ppRunFill{
+  from{background-position:0% 0}
+  to{background-position:200% 0}
+}
+
+/* v046 realtime profile + future time checker */
+.profile-mode{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.profile-mode button{flex:1;min-width:145px}
+.profile-mode button.active{background:var(--gold)!important;color:#071225!important}
+.profile-form input:focus{outline:2px solid rgba(255,197,51,.5)}
+.profile-card.preview-active{display:block!important}
+@media(max-width:760px){.profile-mode{display:grid;grid-template-columns:1fr 1fr}.profile-mode button{min-width:0;padding:10px 8px}}

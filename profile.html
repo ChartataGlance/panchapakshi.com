@@ -3,42 +3,74 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Panchapatchi Profile</title>
+<meta name="description" content="Create a private browser-saved Panchapatchi birth profile from date of birth and time of birth, with moon phase, tithi, rasi, nakshatra, pada and star lord.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sarakalai.com/profile.html">
+<meta name="theme-color" content="#020713">
+<meta name="application-name" content="Sarakalai Panchapatchi">
+<meta name="apple-mobile-web-app-title" content="Sarakalai">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sarakalai Panchapatchi">
+<meta property="og:title" content="Panchapatchi Birth Profile | Sarakalai">
+<meta property="og:description" content="Create a private browser-saved Panchapatchi birth profile from date of birth and time of birth, with moon phase, tithi, rasi, nakshatra, pada and star lord.">
+<meta property="og:url" content="https://sarakalai.com/profile.html">
+<meta property="og:locale" content="ta_IN">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Panchapatchi Birth Profile | Sarakalai">
+<meta name="twitter:description" content="Create a private browser-saved Panchapatchi birth profile from date of birth and time of birth, with moon phase, tithi, rasi, nakshatra, pada and star lord.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Sarakalai Panchapatchi",
+  "url": "https://sarakalai.com",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Any",
+  "description": "Create a private browser-saved Panchapatchi birth profile from date of birth and time of birth, with moon phase, tithi, rasi, nakshatra, pada and star lord.",
+  "inLanguage": [
+    "ta",
+    "en"
+  ]
+}
+</script>
+<title>Panchapatchi Birth Profile | Sarakalai</title>
 <link rel="stylesheet" href="assets/css/style.css">
+<link rel="manifest" href="site.webmanifest">
 </head>
 <body>
 <nav class="nav"><div class="nav-inner"><div class="brand">🌙 Sarakalai Panchapatchi</div><div class="menu"><a class="btn" href="index.html">Home</a><a class="btn" href="profile.html">Profile</a><a class="btn" href="reference.html">Reference</a></div></div></nav>
 <main class="wrap">
   <section class="section">
-    <div class="section-head"><h2>Visitor Profile</h2><span class="badge">Stored in this browser</span></div>
+    <div class="section-head"><h2>Profile / Future Time Check</h2><span class="badge">Live preview</span></div>
     <div class="pad">
+      <div class="profile-mode">
+        <button class="primary active" id="birthModeBtn" type="button">Birth Profile</button>
+        <button id="futureModeBtn" type="button">Check Future Time</button>
+      </div>
       <div class="profile-form">
-        <div>
-          <label for="profileName">Name optional</label>
-          <input id="profileName" type="text" placeholder="Your name">
-        </div>
-        <div>
-          <label for="profileDob">Date of birth</label>
-          <input id="profileDob" type="date">
-        </div>
-        <div>
-          <label for="profileTob">Time of birth</label>
-          <input id="profileTob" type="time" step="1">
-        </div>
+        <div><label for="profileName">Name optional</label><input id="profileName" type="text" placeholder="Your name"></div>
+        <div><label for="profileDob" id="dateLabel">Date of birth</label><input id="profileDob" type="date"></div>
+        <div><label for="profileTob" id="timeLabel">Time of birth</label><input id="profileTob" type="time" step="1"></div>
       </div>
       <div class="profile-actions">
-        <button class="primary" id="saveProfileBtn">Save Profile</button>
-        <button id="editProfileBtn">Change Details</button>
-        <button id="clearProfileBtn">Clear Profile</button>
+        <button class="primary" id="saveProfileBtn">Save Birth Profile</button>
+        <button id="nowProfileBtn">Use Current Date/Time</button>
+        <button id="clearProfileBtn">Clear Saved Profile</button>
       </div>
+      <p class="profile-note" id="profileHelp">Change date or time and the card updates instantly. Use Future Time mode to test a good time before saving anything.</p>
     </div>
   </section>
 
   <section class="profile-card" id="profileCard" style="display:none">
     <div class="profile-card-head">
       <div>
-        <h1 id="profileTitle">Profile</h1>
-        <div class="profile-sub" id="profileBirthText">--</div>
+        <h1 id="profileTitle">Live Preview</h1>
+        <div class="profile-sub" id="profileBirthText">Change date/time to preview instantly</div>
       </div>
       <a class="btn tiny-btn" href="index.html">Live</a>
     </div>
@@ -51,6 +83,10 @@
       </div>
     </div>
 
+    <div class="profile-big">
+      <div class="phase" id="profileQuality">--</div>
+      <div class="profile-sub" id="profileFutureNote">Realtime preview</div>
+    </div>
     <div class="profile-grid">
       <div><small>ராசி</small><b id="profileRasi">--</b></div>
       <div><small>நட்சத்திரம்</small><b id="profileNak">--</b></div>

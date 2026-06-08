@@ -1,4 +1,40 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Panchapatchi Reference</title><link rel="stylesheet" href="assets/css/style.css"></head><body><nav class="nav"><div class="nav-inner"><div class="brand">🌙 Sarakalai Panchapatchi</div><div class="menu"><a class="btn" href="index.html">Home</a><a class="btn" href="profile.html">Profile</a><a class="btn" href="reference.html">Reference</a></div></div></nav><main class="wrap"><h1>Reference: How timing is calculated</h1><section class="section"><div class="section-head"><h2>Calculation flow</h2><span class="badge">Engine</span></div><div class="pad ref-grid"><div class="formula"><h3>Timing source</h3><p>Location sunrise/sunset, manual sunrise/sunset, or traditional fallback 06:00 / 18:00.</p></div><div class="formula"><h3>Day and Night</h3><p><code>Day = Sunrise → Sunset</code><br><code>Night = Sunset → Next Sunrise</code></p></div><div class="formula"><h3>Samam</h3><p><code>Day ÷ 5</code><br><code>Night ÷ 5</code></p></div><div class="formula"><h3>Activity</h3><p><code>Activity duration = Samam duration × units ÷ 144</code></p></div><div class="formula"><h3>Inner parts</h3><p><code>Inner duration = Activity duration ÷ 5</code></p></div><div class="formula"><h3>Moon blocks</h3><p>Rising: Block 1–15 from 0°→180°. Waning: Block 1–15 from 180°→360°.</p></div></div></section><section class="section"><div class="section-head"><h2>Unit tables</h2><span class="badge">Total 144</span></div><div class="pad"><p><b>Rising Day:</b> Eat 30, Walk 36, Rule 48, Sleep 18, Death 12.</p><p><b>Rising Night:</b> Eat 30, Rule 48, Death 12, Walk 36, Sleep 18.</p><p><b>Waning Day:</b> Eat 48, Death 30, Sleep 12, Rule 18, Walk 36.</p><p><b>Waning Night:</b> Eat 42, Sleep 18, Walk 42, Death 24, Rule 18.</p></div></section></main><script src="assets/js/app.js"></script><div class="mobile-bottom-nav">
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Reference page explaining Sarakalai Panchapatchi timing calculations, day and night samam, tithi, lunar details, activity durations and inner timing.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sarakalai.com/reference.html">
+<meta name="theme-color" content="#020713">
+<meta name="application-name" content="Sarakalai Panchapatchi">
+<meta name="apple-mobile-web-app-title" content="Sarakalai">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Sarakalai Panchapatchi">
+<meta property="og:title" content="Panchapatchi Calculation Reference | Sarakalai">
+<meta property="og:description" content="Reference page explaining Sarakalai Panchapatchi timing calculations, day and night samam, tithi, lunar details, activity durations and inner timing.">
+<meta property="og:url" content="https://sarakalai.com/reference.html">
+<meta property="og:locale" content="ta_IN">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Panchapatchi Calculation Reference | Sarakalai">
+<meta name="twitter:description" content="Reference page explaining Sarakalai Panchapatchi timing calculations, day and night samam, tithi, lunar details, activity durations and inner timing.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Sarakalai Panchapatchi",
+  "url": "https://sarakalai.com",
+  "applicationCategory": "LifestyleApplication",
+  "operatingSystem": "Any",
+  "description": "Reference page explaining Sarakalai Panchapatchi timing calculations, day and night samam, tithi, lunar details, activity durations and inner timing.",
+  "inLanguage": [
+    "ta",
+    "en"
+  ]
+}
+</script><title>Panchapatchi Calculation Reference | Sarakalai</title><link rel="stylesheet" href="assets/css/style.css"><link rel="manifest" href="site.webmanifest">
+</head><body><nav class="nav"><div class="nav-inner"><div class="brand">🌙 Sarakalai Panchapatchi</div><div class="menu"><a class="btn" href="index.html">Home</a><a class="btn" href="profile.html">Profile</a><a class="btn" href="reference.html">Reference</a></div></div></nav><main class="wrap"><h1>Reference: How timing is calculated</h1><section class="section"><div class="section-head"><h2>Calculation flow</h2><span class="badge">Engine</span></div><div class="pad ref-grid"><div class="formula"><h3>Timing source</h3><p>Location sunrise/sunset, manual sunrise/sunset, or traditional fallback 06:00 / 18:00.</p></div><div class="formula"><h3>Day and Night</h3><p><code>Day = Sunrise → Sunset</code><br><code>Night = Sunset → Next Sunrise</code></p></div><div class="formula"><h3>Samam</h3><p><code>Day ÷ 5</code><br><code>Night ÷ 5</code></p></div><div class="formula"><h3>Activity</h3><p><code>Activity duration = Samam duration × units ÷ 144</code></p></div><div class="formula"><h3>Inner parts</h3><p><code>Inner duration = Activity duration ÷ 5</code></p></div><div class="formula"><h3>Moon blocks</h3><p>Rising: Block 1–15 from 0°→180°. Waning: Block 1–15 from 180°→360°.</p></div></div></section><section class="section"><div class="section-head"><h2>Unit tables</h2><span class="badge">Total 144</span></div><div class="pad"><p><b>Rising Day:</b> Eat 30, Walk 36, Rule 48, Sleep 18, Death 12.</p><p><b>Rising Night:</b> Eat 30, Rule 48, Death 12, Walk 36, Sleep 18.</p><p><b>Waning Day:</b> Eat 48, Death 30, Sleep 12, Rule 18, Walk 36.</p><p><b>Waning Night:</b> Eat 42, Sleep 18, Walk 42, Death 24, Rule 18.</p></div></section></main><script src="assets/js/app.js"></script><div class="mobile-bottom-nav">
 <a class="" href="index.html"><span class="ico">🏠</span><span>Live</span></a>
 <a class="" href="profile.html"><span class="ico">👤</span><span>Profile</span></a>
 <a class="active" href="reference.html"><span class="ico">📖</span><span>Info</span></a>

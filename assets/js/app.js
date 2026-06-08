@@ -8,6 +8,7 @@ const LORDS=["Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercu
 const RASI=[["மேஷம்","Aries"],["ரிஷபம்","Taurus"],["மிதுனம்","Gemini"],["கடகம்","Cancer"],["சிம்மம்","Leo"],["கன்னி","Virgo"],["துலாம்","Libra"],["விருச்சிகம்","Scorpio"],["தனுசு","Sagittarius"],["மகரம்","Capricorn"],["கும்பம்","Aquarius"],["மீனம்","Pisces"]];
 const $=id=>document.getElementById(id);let APP,state={mode:'fallback',lat:null,lon:null,timeline:[],current:null};
 const STORAGE_KEY='sarakalai_timing_v1';
+let lastTwelveRender=0;
 function saveTiming(mode, extra={}){
   localStorage.setItem(STORAGE_KEY, JSON.stringify({mode, savedAt:Date.now(), ...extra}));
 }
@@ -105,7 +106,10 @@ function renderTwelveParts(c){
  const root=$('twelveRow');if(!root||!c)return;
  const now=new Date();
  const progress=Math.min(1,Math.max(0,(now-c.from)/c.duration));
+ if(now.getTime()-lastTwelveRender<2000 && root.children.length){return;}
+ lastTwelveRender=now.getTime();
  const active=Math.min(12,Math.max(1,Math.floor(progress*12)+1));
+ root.style.setProperty('--progress', `${Math.min(100,Math.max(0,progress*100))}%`);
  root.innerHTML='';
  for(let i=1;i<=12;i++){
    const b=document.createElement('span');
@@ -113,16 +117,15 @@ function renderTwelveParts(c){
    b.textContent=i<=5?String(i):'';
    root.appendChild(b);
  }
- if($('twelveCaption')) $('twelveCaption').textContent=`Part ${active} / 12`;
- const q=qualityForActivity(c.activity_en);
- if($('qualityText')) $('qualityText').textContent=`${q.stars} ${q.label}`;
+ if($('twelveCaption')) $('twelveCaption').textContent='';
+ if($('qualityText')) $('qualityText').textContent='';
 }
 function renderCurrent(){
  let c=state.current;if(!c)return;
  let now=new Date(),remain=c.to-now,prog=Math.min(100,Math.max(0,((now-c.from)/c.duration)*100));
  const meta=activityMeta(c.activity_en);
  const q=qualityForActivity(c.activity_en);
- if($('currentTitle')) $('currentTitle').innerHTML=`<span class="current-bird-hero">${c.bird.icon}</span><span><span class="current-bird-name">${c.bird.name}</span><span class="current-activity-line">${meta.emoji} ${c.activity_ta || meta.ta} • ${meta.en}</span><span class="good-time-badge">${q.stars} ${meta.good}</span></span>`;
+ if($('currentTitle')) $('currentTitle').innerHTML=`<span class="current-bird-hero">${c.bird.icon}</span><span><span class="live-hero-meta"><span class="current-bird-name">${c.bird.name}</span><span class="atcharam-badge"><small>அட்சரம்</small><b>${c.atcharam || '-'}</b></span></span><span class="current-activity-line">${meta.emoji} ${c.activity_ta || meta.ta} • ${meta.en}</span><span class="good-time-badge">${meta.good}</span></span>`;
  if($('countdownText')) $('countdownText').textContent=`⏳ ${mmss(remain)}`;
  if($('activityDurationText')) $('activityDurationText').textContent=`${mmss(c.duration)} total · ends ${fmt(c.to)}`;
  if($('activityBar')) $('activityBar').style.width=`0%`;
