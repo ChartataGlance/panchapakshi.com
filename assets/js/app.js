@@ -7,15 +7,17 @@ const NAKSHATRAS=[["அஸ்வினி","Ashvini"],["பரணி","Bharani"]
 const LORDS=["Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury","Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury","Ketu","Venus","Sun","Moon","Mars","Rahu","Jupiter","Saturn","Mercury"];
 const RASI=[["மேஷம்","Aries"],["ரிஷபம்","Taurus"],["மிதுனம்","Gemini"],["கடகம்","Cancer"],["சிம்மம்","Leo"],["கன்னி","Virgo"],["துலாம்","Libra"],["விருச்சிகம்","Scorpio"],["தனுசு","Sagittarius"],["மகரம்","Capricorn"],["கும்பம்","Aquarius"],["மீனம்","Pisces"]];
 const $=id=>document.getElementById(id);let APP,state={mode:'fallback',lat:null,lon:null,timeline:[],current:null};
-const STORAGE_KEY='sarakalai_timing_v1';
+const STORAGE_KEY='panchapatchi_timing_v1';
 let lastTwelveRender=0;
 function saveTiming(mode, extra={}){
   localStorage.setItem(STORAGE_KEY, JSON.stringify({mode, savedAt:Date.now(), ...extra}));
 }
 function loadSavedTiming(){
-  try{return JSON.parse(localStorage.getItem(STORAGE_KEY)||'null')}catch(e){return null}
+  try{
+    return JSON.parse(localStorage.getItem(STORAGE_KEY)||localStorage.getItem('sarakalai_timing_v1')||'null')
+  }catch(e){return null}
 }
-function clearSavedTiming(){localStorage.removeItem(STORAGE_KEY)}
+function clearSavedTiming(){localStorage.removeItem(STORAGE_KEY);localStorage.removeItem('sarakalai_timing_v1')}
 function showTimingChoices(show){
   const choices=$('timingChoice'), saved=$('savedTimingControls');
   if(choices) choices.style.display=show?'flex':'none';
@@ -146,7 +148,7 @@ function renderCards(){let r=$('cardList');if(!r)return;let now=new Date();r.inn
 function refresh(){build();renderCurrent();renderCards()}
 function setMode(m, save=true){
  state.mode=m;
- if(m==='manual'){$('manualPanel').style.display='block';showTimingChoices(true);return}
+ if(m==='manual'){if($('manualPanel')) $('manualPanel').style.display='block';showTimingChoices(true);return}
  if(m==='fallback'){
    if(save) saveTiming('fallback');
    showTimingChoices(false);
@@ -158,8 +160,8 @@ function setMode(m, save=true){
 }
 function useManual(){
  state.mode='manual';
- const sunrise=$('manualSunrise').value||'06:00:00';
- const sunset=$('manualSunset').value||'18:00:00';
+ const sunrise=($('manualSunrise')&&$('manualSunrise').value)||'06:00:00';
+ const sunset=($('manualSunset')&&$('manualSunset').value)||'18:00:00';
  saveTiming('manual',{sunrise,sunset});
  showTimingChoices(false);
  if($('manualPanel')) $('manualPanel').style.display='none';
@@ -222,7 +224,7 @@ async function init(){
    if($('manualSunset')) $('manualSunset').value=saved.sunset||'18:00:00';
    state.mode='manual'; showTimingChoices(false); refresh();
    if($('statusText')) $('statusText').textContent='Manual timing active';
-   if($('statusDetails')) $('statusDetails').textContent=`Saved manual timing · Sunrise ${$('manualSunrise').value} / Sunset ${$('manualSunset').value}`;
+   if($('statusDetails')) $('statusDetails').textContent=`Saved manual timing · Sunrise ${$('manualSunrise')?$('manualSunrise').value:'06:00:00'} / Sunset ${$('manualSunset')?$('manualSunset').value:'18:00:00'}`;
  }else if(saved && saved.mode==='fallback'){
    setMode('fallback', false);
  }else{
@@ -234,6 +236,8 @@ async function init(){
      if($('statusDetails')) $('statusDetails').textContent='Use location for local timing, or choose another method.';
    }
  }
- if(!window.SARAKALAI_LOOKUP_PAGE){setInterval(()=>{if(APP){build();renderCurrent()}},1000)}
+ if(!window.SARAKALAI_LOOKUP_PAGE){if(!window.SARAKALAI_LOOKUP_PAGE){if(!window.SARAKALAI_LOOKUP_PAGE){setInterval(()=>{if(APP){build();renderCurrent()}},1000)}}}
 }
 init();
+
+window.PANCHAPATCHI_APP_API={getSun, moonInfo, fmt, STORAGE_KEY};
