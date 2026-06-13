@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Details · panchapatchi.in</title>
+  <link rel="stylesheet" href="/style.css?v=20260613-detail">
+</head>
+<body>
+<main class="app">
+  <header class="hero">
+    <h1>Details <span>Visitor / GPS / Calculation</span></h1>
+    <p>Shows browser location, timezone, day/night, paksha, rise/set and calculation method.</p>
+  </header>
+
+  <div class="quick-actions">
+    <a class="button-link" href="/">Home</a>
+    <button id="gps-detail" type="button">Use GPS 📍</button>
+  </div>
+
+  <section id="detail-status" class="status">Loading...</section>
+
+  <section class="card detail-list">
+    <div class="section-title">Visitor information</div>
+    <div id="visitor-info"></div>
+  </section>
+
+  <section class="card detail-list">
+    <div class="section-title">Panchapakshi calculation</div>
+    <div id="calc-info"></div>
+  </section>
+
+  <section class="card detail-list">
+    <div class="section-title">Raw API data</div>
+    <pre id="raw-info">--</pre>
+  </section>
+</main>
+<script src="/detail.js?v=20260613-detail"></script>
+</body>
+</html>
