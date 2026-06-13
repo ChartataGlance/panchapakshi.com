@@ -1,3 +1,5 @@
+import tzlookup from 'tz-lookup';
+
 const WEEKDAYS = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
 const WEEKDAY_TAMIL = { sunday:'ஞாயிறு', monday:'திங்கள்', tuesday:'செவ்வாய்', wednesday:'புதன்', thursday:'வியாழன்', friday:'வெள்ளி', saturday:'சனி' };
 const BIRD_ICONS = { Vulture:'🦅', Owl:'🦉', Crow:'🐦‍⬛', Cock:'🐓', Peacock:'🦚', Unknown:'❔' };
@@ -55,10 +57,33 @@ function moonLongitude(jd) {
   const Dm = norm(297.850 + 12.190749 * D);
   return norm(L + 6.289*sin(M) + 1.274*sin(2*Dm-M) + 0.658*sin(2*Dm) + 0.214*sin(2*M) - 0.186*sin(Ms) - 0.114*sin(2*F));
 }
-function offsetForLocation(lat, lon) {
-  // Default to Indian Standard Time for India; otherwise use nearest whole-hour timezone from longitude.
-  if (lat >= 6 && lat <= 38 && lon >= 68 && lon <= 98) return 330;
-  return Math.round(lon / 15) * 60;
+function parseShortOffset(value) {
+  const match = String(value || '').match(/GMT([+-])(\d{1,2})(?::?(\d{2}))?/);
+  if (!match) return 0;
+  const minutes = Number(match[2]) * 60 + Number(match[3] || 0);
+  return match[1] === '-' ? -minutes : minutes;
+}
+function offsetForTimeZone(timeZone, date, time) {
+  const [y, mo, d] = date.split('-').map(Number);
+  const [h=0, mi=0, s=0] = time.split(':').map(Number);
+  const instant = new Date(Date.UTC(y, mo - 1, d, h, mi, s));
+  const parts = new Intl.DateTimeFormat('en-US', {
+    timeZone,
+    timeZoneName: 'shortOffset',
+    hour: '2-digit',
+    minute: '2-digit',
+    hour12: false,
+  }).formatToParts(instant);
+  return parseShortOffset(parts.find(p => p.type === 'timeZoneName')?.value);
+}
+function timezoneForLocation(lat, lon) {
+  try { return tzlookup(lat, lon); } catch (_) { return null; }
+}
+function offsetForLocation(lat, lon, date, time) {
+  const timeZone = timezoneForLocation(lat, lon);
+  if (timeZone) return { timeZone, offset: offsetForTimeZone(timeZone, date, time) };
+  if (lat >= 6 && lat <= 38 && lon >= 68 && lon <= 98) return { timeZone: 'Asia/Kolkata', offset: 330 };
+  return { timeZone: 'longitude-estimate', offset: Math.round(lon / 15) * 60 };
 }
 function localToUtcParts(date, time, tzOffsetMinutes) {
   const [y, mo, d] = date.split('-').map(Number);
@@ -117,7 +142,9 @@ function rowsFor(paksha, period, weekday, samam, total) {
 export function calculatePanchapakshi({ date, time, lat=13.0827, lon=80.2707, tzOffset }) {
   if (!/^\d{4}-\d{2}-\d{2}$/.test(date || '') || !/^\d{2}:\d{2}/.test(time || '')) throw new Error('Invalid date/time');
   lat = Number(lat); lon = Number(lon);
-  const timezone_offset_minutes = Number.isFinite(Number(tzOffset)) ? Number(tzOffset) : offsetForLocation(lat, lon);
+  const gpsTimezone = offsetForLocation(lat, lon, date, time);
+  const timezone_offset_minutes = gpsTimezone.offset;
+  const timezone_name = gpsTimezone.timeZone;
   const tithi = tithiFor(date, time, timezone_offset_minutes), paksha = tithi.paksha.includes('Krishna') ? 'krishna' : 'shukla';
   const dn = dayNight(date, time, lat, lon, timezone_offset_minutes), weekday_index = weekdayIndex(date), weekday = WEEKDAYS[weekday_index], stats = statsFor(dn, time);
   const samam = Math.max(1, Math.min(5, Math.floor(stats.elapsed / (stats.total / 5)) + 1));
@@ -125,6 +152,6 @@ export function calculatePanchapakshi({ date, time, lat=13.0827, lon=80.2707, tz
   const active = rows.find(r => stats.elapsed >= r.start_minutes && stats.elapsed < r.end_minutes) || rows.at(-1);
   const [adhikara, padu] = ADHIKARA_PADU[`${paksha}_${dn.period}`][weekday_index], relations = BIRD_RELATIONS[adhikara] || {friends:[], enemies:[]};
   const relation = active.bird === adhikara ? 'same' : relations.friends.includes(active.bird) ? 'friend' : relations.enemies.includes(active.bird) ? 'enemy' : 'neutral';
-  return { date, time, latitude:lat, longitude:lon, timezone_offset_minutes, weekday, weekday_tamil:WEEKDAY_TAMIL[weekday], paksha, paksha_tamil:paksha==='shukla'?'வளர்பிறை':'தேய்பிறை', period:dn.period, period_tamil:dn.period==='day'?'பகல்':'இரவு', sunrise:dn.sunrise, sunset:dn.sunset, tithi, day_night:dn, stats, samam, adhikara, padu, relations, relation_to_adhikara:relation, active, rows };
+  return { date, time, latitude:lat, longitude:lon, timezone_name, timezone_offset_minutes, weekday, weekday_tamil:WEEKDAY_TAMIL[weekday], paksha, paksha_tamil:paksha==='shukla'?'வளர்பிறை':'தேய்பிறை', period:dn.period, period_tamil:dn.period==='day'?'பகல்':'இரவு', sunrise:dn.sunrise, sunset:dn.sunset, tithi, day_night:dn, stats, samam, adhikara, padu, relations, relation_to_adhikara:relation, active, rows };
 }
 export function exportTables() { return { tables:TABLES, adhikara_padu:ADHIKARA_PADU, atcharam:ATCHARAM, relations:BIRD_RELATIONS }; }

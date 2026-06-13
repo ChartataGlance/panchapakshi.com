@@ -12,7 +12,8 @@
     "node": ">=18"
   },
   "dependencies": {
-    "express": "latest"
+    "express": "latest",
+    "tz-lookup": "^6.1.25"
   },
   "main": "src/server.js"
 }
