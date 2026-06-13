@@ -40,6 +40,7 @@ small, .section-title { display: block; color: #94a3b8; text-transform: uppercas
 .details b, .detail-list b { color: #fbbf24; }
 pre { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; color: #cbd5e1; font-size: 12px; }
 .detail-list { margin-bottom: 12px; }
+.contact-link { position: fixed; right: 12px; bottom: 12px; z-index: 50; width: auto; min-width: 92px; height: 38px; border-radius: 999px; box-shadow: 0 10px 30px rgba(0,0,0,.35); background: #229ed9; color: white; }
 .rows { display: grid; grid-template-columns: 1fr; gap: 10px; }
 .row { min-height: 92px; display: grid; align-content: center; gap: 5px; text-align: center; padding: 10px 8px; border: 1px solid #475569; border-radius: 16px; background: #0f172a; position: relative; overflow: hidden; }
 .row strong { color: #f8fafc; font-size: 19px; }
