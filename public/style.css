@@ -48,7 +48,7 @@ small, .section-title { display: block; color: #94a3b8; text-transform: uppercas
 .row.padu { border-right: 5px solid #fb7185; }
 @media (min-width: 680px) {
   .app { padding-top: 22px; }
-  .controls { grid-template-columns: repeat(6, 1fr); }
+  .controls { grid-template-columns: repeat(7, 1fr); }
   .grid { grid-template-columns: 1fr 1fr; }
   .rows { grid-template-columns: repeat(5, 1fr); }
   .row { min-height: 128px; }
