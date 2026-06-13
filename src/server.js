@@ -1,20 +1,37 @@
-import { serve } from '@hono/node-server';
-import { serveStatic } from '@hono/node-server/serve-static';
-import { Hono } from 'hono';
+import express from 'express';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import { calculatePanchapakshi, exportTables } from './panchapakshi.js';
 
-const app = new Hono();
-app.get('/api/panchapakshi', c => {
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const app = express();
+const publicDir = path.join(__dirname, '..', 'public');
+
+app.get('/api/panchapakshi', (req, res) => {
   try {
-    const q = c.req.query();
-    return c.json(calculatePanchapakshi({ date:q.date, time:q.time, lat:q.lat, lon:q.lon }));
+    res.json(calculatePanchapakshi({
+      date: req.query.date,
+      time: req.query.time,
+      lat: req.query.lat,
+      lon: req.query.lon,
+    }));
   } catch (err) {
-    return c.json({ error: err.message || String(err) }, 400);
+    res.status(400).json({ error: err.message || String(err) });
   }
 });
-app.get('/api/tables', c => c.json(exportTables()));
-app.get('/health', c => c.json({ ok:true, runtime:'node', framework:'hono' }));
-app.use('/*', serveStatic({ root: './public' }));
+
+app.get('/api/tables', (_req, res) => res.json(exportTables()));
+app.get('/health', (_req, res) => res.json({ ok: true, runtime: 'node', framework: 'express' }));
+
+app.use(express.static(publicDir));
+app.use((req, res, next) => {
+  if (req.path.startsWith('/api/')) return next();
+  return res.sendFile(path.join(publicDir, 'index.html'));
+});
 
 const port = Number(process.env.PORT || 3000);
-serve({ fetch: app.fetch, port }, info => console.log(`panchapakshi.com running on http://localhost:${info.port}`));
+const host = process.env.HOST || '0.0.0.0';
+app.listen(port, host, () => {
+  console.log(`panchapakshi.com running on http://${host}:${port}`);
+});

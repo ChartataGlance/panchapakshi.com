@@ -5,13 +5,14 @@
   "private": true,
   "scripts": {
     "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
-  },
-  "dependencies": {
-    "@hono/node-server": "latest",
-    "hono": "latest"
+    "dev": "node --watch src/server.js",
+    "build": "echo no build required"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "main": "src/server.js"
 }
