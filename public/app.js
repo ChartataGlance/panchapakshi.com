@@ -1,6 +1,6 @@
 const $ = (id) => document.getElementById(id);
 const els = {
-  date: $('date'), time: $('time'), lat: $('lat'), lon: $('lon'), gps: $('gps'), now: $('now'), load: $('load'),
+  date: $('date'), time: $('time'), lat: $('lat'), lon: $('lon'), gps: $('gps'), gpsTop: $('gps-top'), now: $('now'), load: $('load'),
   status: $('status'), active: $('active'), details: $('details'), rows: $('rows'),
   controlsToggle: $('controls-toggle'), controlsCard: $('controls-card'), controlsClose: $('controls-close'),
   periodBar: $('period-bar'), samamBar: $('samam-bar'), activityBar: $('activity-bar'),
@@ -10,12 +10,25 @@ function escapeHtml(value) { return String(value ?? '').replace(/[&<>'"]/g, ch =
 function timezoneOffsetMinutes() { return -new Date(`${els.date.value || new Date().toLocaleDateString('en-CA')}T${els.time.value || '12:00'}`).getTimezoneOffset(); }
 function setNow() { const now = new Date(); els.date.value = now.toLocaleDateString('en-CA'); els.time.value = now.toLocaleTimeString('en-GB', { hour:'2-digit', minute:'2-digit', hour12:false }); }
 function saveInputs() { localStorage.setItem('panchapakshi.inputs', JSON.stringify({ date:els.date.value, time:els.time.value, lat:els.lat.value, lon:els.lon.value })); }
-function useGps({ silent = false } = {}) {
-  if (!navigator.geolocation) {
-    if (!silent) els.status.innerHTML = '<span class="bad">GPS not supported by this browser.</span>';
+async function useGps({ silent = false } = {}) {
+  if (!window.isSecureContext) {
+    els.status.innerHTML = '<span class="bad">GPS needs HTTPS. Open https://panchapatchi.in</span>';
     return;
   }
-  if (!silent) els.status.textContent = 'Getting GPS location...';
+  if (!navigator.geolocation) {
+    els.status.innerHTML = '<span class="bad">GPS not supported by this browser.</span>';
+    return;
+  }
+  if (navigator.permissions?.query) {
+    try {
+      const permission = await navigator.permissions.query({ name: 'geolocation' });
+      if (permission.state === 'denied') {
+        els.status.innerHTML = '<span class="bad">GPS is blocked for this site. Enable Location permission in browser site settings.</span>';
+        return;
+      }
+    } catch (_) {}
+  }
+  els.status.textContent = 'Requesting GPS permission...';
   navigator.geolocation.getCurrentPosition(
     pos => {
       els.lat.value = pos.coords.latitude.toFixed(6);
@@ -53,10 +66,10 @@ async function calculate() { saveInputs(); els.status.textContent = 'Calculating
 els.controlsToggle.addEventListener('click', () => els.controlsCard.classList.toggle('closed'));
 els.controlsClose.addEventListener('click', () => els.controlsCard.classList.add('closed'));
 els.gps.addEventListener('click', () => useGps());
+els.gpsTop.addEventListener('click', () => useGps());
 els.now.addEventListener('click', () => { setNow(); calculate(); els.controlsCard.classList.add('closed'); });
 els.load.addEventListener('click', () => { calculate(); els.controlsCard.classList.add('closed'); });
 [els.date, els.time, els.lat, els.lon].forEach(input => input.addEventListener('change', calculate));
 loadInputs();
-if (!localStorage.getItem('panchapakshi.inputs')) useGps({ silent: true });
-else calculate();
+calculate();
 setInterval(() => { setNow(); calculate(); }, 60_000);
