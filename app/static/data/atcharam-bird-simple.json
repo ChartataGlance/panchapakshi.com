@@ -1,0 +1,4304 @@
+{
+  "waning": {
+    "sunday": {
+      "weekdayTamil": "ஞாயிறு",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 2,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 4,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 5,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 7,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 9,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 10,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 12,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 14,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 15,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 17,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 19,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 20,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 22,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 24,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 25,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 2,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 4,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 6,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 7,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 9,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 11,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 12,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 14,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 16,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 17,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 19,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 21,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 22,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 24,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        }
+      ]
+    },
+    "monday": {
+      "weekdayTamil": "திங்கள்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 3,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 5,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 6,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 8,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 10,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 11,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 13,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 15,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 16,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 18,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 20,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 21,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 23,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 25,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 2,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 4,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 5,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 7,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 9,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 10,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 12,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 14,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 15,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 17,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 19,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 20,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 22,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 24,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 25,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        }
+      ]
+    },
+    "tuesday": {
+      "weekdayTamil": "செவ்வாய்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 2,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 4,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 5,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 7,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 9,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 10,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 12,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 14,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 15,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 17,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 19,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 20,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 22,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 24,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 25,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 2,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 4,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 6,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 7,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 9,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 11,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 12,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 14,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 16,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 17,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 19,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 21,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 22,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 24,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        }
+      ]
+    },
+    "wednesday": {
+      "weekdayTamil": "புதன்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 3,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 4,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 6,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 8,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 9,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 11,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 13,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 14,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 16,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 18,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 19,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 21,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 23,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 24,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 2,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 3,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 5,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 7,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 8,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 10,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 12,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 13,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 15,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 17,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 18,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 20,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 22,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 23,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 25,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        }
+      ]
+    },
+    "thursday": {
+      "weekdayTamil": "வியாழன்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 2,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 3,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 5,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 7,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 8,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 10,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 12,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 13,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 15,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 17,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 18,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 20,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 22,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 23,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 25,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 3,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 4,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 6,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 8,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 9,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 11,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 13,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 14,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 16,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 18,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 19,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 21,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 23,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 24,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        }
+      ]
+    },
+    "friday": {
+      "weekdayTamil": "வெள்ளி",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 2,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 4,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 6,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 7,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 9,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 11,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 12,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 14,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 16,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 17,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 19,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 21,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 22,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 24,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 3,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 5,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 6,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 8,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 10,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 11,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 13,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 15,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 16,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 18,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 20,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 21,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 23,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 25,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        }
+      ]
+    },
+    "saturday": {
+      "weekdayTamil": "சனி",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 3,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 5,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 6,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 8,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 10,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 11,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 13,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 15,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 16,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 18,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 20,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 21,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 23,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 25,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 2,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 4,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 5,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 7,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 9,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 10,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 12,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 14,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 15,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 17,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 19,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 20,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "அ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 22,
+          "atcharam": "ஒ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "உ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 24,
+          "atcharam": "இ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 25,
+          "atcharam": "எ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        }
+      ]
+    }
+  },
+  "rising": {
+    "sunday": {
+      "weekdayTamil": "ஞாயிறு",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 2,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 3,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 5,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 7,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 8,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 10,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 12,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 13,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 15,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 17,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 18,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 20,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 22,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 23,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 25,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 3,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 5,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 6,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 8,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 10,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 11,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 13,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 15,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 16,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 18,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 20,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 21,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 23,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 25,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        }
+      ]
+    },
+    "monday": {
+      "weekdayTamil": "திங்கள்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 2,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 4,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 6,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 7,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 9,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 11,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 12,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 14,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 16,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 17,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 19,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 21,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 22,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 24,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 2,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 4,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 5,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 7,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 9,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 10,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 12,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 14,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 15,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 17,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 19,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 20,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 22,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 24,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 25,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        }
+      ]
+    },
+    "tuesday": {
+      "weekdayTamil": "செவ்வாய்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 2,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 3,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 5,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 7,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 8,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 10,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 12,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 13,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 15,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 17,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 18,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 20,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 22,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 23,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 25,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 3,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 5,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 6,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 8,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 10,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 11,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 13,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 15,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 16,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 18,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 20,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 21,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 23,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 25,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        }
+      ]
+    },
+    "wednesday": {
+      "weekdayTamil": "புதன்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 2,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 4,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 6,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 7,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 9,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 11,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 12,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 14,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 16,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 17,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 19,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 21,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 22,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 24,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 2,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 4,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 5,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 7,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 9,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 10,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 12,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 14,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 15,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 17,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 19,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 20,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 22,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 24,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 25,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        }
+      ]
+    },
+    "thursday": {
+      "weekdayTamil": "வியாழன்",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 3,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 5,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 6,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 8,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 10,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 11,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 13,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 15,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 16,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 18,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 20,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 21,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 23,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 25,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 3,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 4,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 6,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 8,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 9,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 11,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 13,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 14,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 16,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 18,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 19,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 21,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 23,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 24,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        }
+      ]
+    },
+    "friday": {
+      "weekdayTamil": "வெள்ளி",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 2,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 4,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 5,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 7,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 9,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 10,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 12,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 14,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 15,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 17,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 19,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 20,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 22,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 24,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 25,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 2,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 3,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 4,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 5,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 6,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 7,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 8,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 9,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 10,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 11,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 12,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 13,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 14,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 15,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 16,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 17,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 18,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 19,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 20,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 21,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 22,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 23,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 24,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 25,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        }
+      ]
+    },
+    "saturday": {
+      "weekdayTamil": "சனி",
+      "day": [
+        {
+          "slot": 1,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 2,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 3,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 4,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 6,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 7,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 8,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 9,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 11,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 12,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 13,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 14,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 16,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 17,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 18,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 19,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 21,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 22,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 23,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 24,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        }
+      ],
+      "night": [
+        {
+          "slot": 1,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 2,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 3,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 4,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 5,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 6,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 7,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 8,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 9,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 10,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 11,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 12,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 13,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 14,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 15,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        },
+        {
+          "slot": 16,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 17,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 18,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 19,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 20,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 21,
+          "atcharam": "இ",
+          "bird": "owl",
+          "birdTamil": "ஆந்தை"
+        },
+        {
+          "slot": 22,
+          "atcharam": "உ",
+          "bird": "crow",
+          "birdTamil": "காகம்"
+        },
+        {
+          "slot": 23,
+          "atcharam": "எ",
+          "bird": "chicken",
+          "birdTamil": "கோழி"
+        },
+        {
+          "slot": 24,
+          "atcharam": "ஒ",
+          "bird": "peacock",
+          "birdTamil": "மயில்"
+        },
+        {
+          "slot": 25,
+          "atcharam": "அ",
+          "bird": "vulture",
+          "birdTamil": "வல்லூறு"
+        }
+      ]
+    }
+  }
+}
