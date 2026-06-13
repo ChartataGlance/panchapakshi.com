@@ -51,6 +51,11 @@ pre { white-space: pre-wrap; overflow-wrap: anywhere; margin: 0; color: #cbd5e1;
 .row.on strong, .row.on span, .row.on small, .row.on em { color: #111827; }
 .row.adhikara { border-left: 5px solid #22c55e; }
 .row.padu { border-right: 5px solid #fb7185; }
+.row.friend em, .relation.friend { color: #bbf7d0; }
+.row.enemy em, .relation.enemy { color: #fecaca; }
+.row.same em, .relation.same { color: #fde68a; }
+.row.neutral em, .relation.neutral { color: #cbd5e1; }
+.row.on.friend em, .row.on.enemy em, .row.on.same em, .row.on.neutral em { color: #111827; }
 @media (min-width: 680px) {
   .app { padding-top: 22px; }
   .controls { grid-template-columns: repeat(7, 1fr); }

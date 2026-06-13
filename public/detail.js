@@ -58,6 +58,7 @@ async function loadDetails(lat, lon) {
     row('Samam', data.samam),
     row('Current bird', `${data.active.bird_icon} ${data.active.atcharam} ${data.active.bird}`),
     row('Current activity', `${data.active.activity_icon} ${data.active.activity_tamil} / ${data.active.activity}`),
+    row('Current relation', data.active.relation_to_adhikara),
     row('Adhikara / Padu', `${data.adhikara} / ${data.padu}`),
     row('Relation to adhikara', data.relation_to_adhikara),
     row('Tithi', data.tithi?.display || '--'),

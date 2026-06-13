@@ -135,8 +135,9 @@ function weekdayIndex(date) { return new Date(`${date}T00:00:00`).getDay(); }
 function rowsFor(paksha, period, weekday, samam, total) {
   const key = `${paksha}_${period}`, table = TABLES[key], birds = table.birds[weekday], [adhikara,padu] = ADHIKARA_PADU[key][weekday];
   const samamLength = total / 5, ratio = samamLength / 144; let cursor = (samam - 1) * samamLength;
-  return birds.map((bird, i) => { const activity = table.acts[(i + samam - 1) % 5], duration = table.minutes[activity] * ratio, start = cursor, end = cursor + duration; cursor = end; return {
-    slot:i+1, bird, bird_icon:BIRD_ICONS[bird] || '', atcharam:ATCHARAM[paksha][bird] || '', activity, activity_tamil:ACTIVITY_TAMIL[activity], activity_icon:ACTIVITY_ICONS[activity], duration_minutes:+duration.toFixed(2), duration:minutesToHms(duration), start_minutes:+start.toFixed(2), end_minutes:+end.toFixed(2), is_adhikara:bird===adhikara, is_padu:bird===padu
+  const relationData = BIRD_RELATIONS[adhikara] || { friends: [], enemies: [] };
+  return birds.map((bird, i) => { const activity = table.acts[(i + samam - 1) % 5], duration = table.minutes[activity] * ratio, start = cursor, end = cursor + duration; cursor = end; const relation = bird === adhikara ? 'same' : relationData.friends.includes(bird) ? 'friend' : relationData.enemies.includes(bird) ? 'enemy' : 'neutral'; return {
+    slot:i+1, bird, bird_icon:BIRD_ICONS[bird] || '', atcharam:ATCHARAM[paksha][bird] || '', activity, activity_tamil:ACTIVITY_TAMIL[activity], activity_icon:ACTIVITY_ICONS[activity], duration_minutes:+duration.toFixed(2), duration:minutesToHms(duration), start_minutes:+start.toFixed(2), end_minutes:+end.toFixed(2), relation_to_adhikara:relation, is_adhikara:bird===adhikara, is_padu:bird===padu
   }; });
 }
 export function calculatePanchapakshi({ date, time, lat=13.0827, lon=80.2707, tzOffset }) {
