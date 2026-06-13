@@ -1,0 +1,10 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>panchapakshi.com</title><link rel="stylesheet" href="/style.css"></head><body>
+<main class="app">
+  <header class="hero"><h1>பஞ்சபட்சி <span>Panchapakshi</span></h1><p>Simple live Panchapakshi view: paksha, day/night, samam, bird, atcharam and activity.</p></header>
+  <button id="controls-toggle" class="controls-toggle" type="button">Date / Time ⚙️</button>
+  <section id="controls-card" class="card controls closed"><div class="controls-head"><strong>Date / Time</strong><button id="controls-close" type="button">Close</button></div><label>Date <input id="date" type="date"></label><label>Time <input id="time" type="time"></label><label>Lat <input id="lat" type="number" step="0.000001" value="13.0827"></label><label>Lon <input id="lon" type="number" step="0.000001" value="80.2707"></label><button id="now" type="button">Now</button><button id="load" type="button">Calculate</button></section>
+  <section id="status" class="status">Loading...</section>
+  <section class="card progress-card"><div class="section-title">Progress</div><div class="progress-row"><span>Day/Night</span><b id="period-percent">0%</b></div><div class="bar"><i id="period-bar"></i></div><div class="progress-row"><span>Samam</span><b id="samam-percent">0%</b></div><div class="bar"><i id="samam-bar"></i></div><div class="progress-row"><span>Activity</span><b id="activity-percent">0%</b></div><div class="bar"><i id="activity-bar"></i></div></section>
+  <section class="grid"><div class="card details-card"><small>Details</small><div id="details" class="details">--</div></div><div class="card active-card"><small>Current</small><div id="active" class="active">--</div></div></section>
+  <section class="card"><div class="section-title">This Samam - 5 activities</div><div id="rows" class="rows"></div></section>
+</main><script src="/app.js"></script></body></html>

@@ -1,30 +1,27 @@
 # panchapakshi.com
 
-A simplified Panchapakshi FastAPI project.
+Hostinger-ready Node.js Panchapakshi app.
 
-## Structure
+## Stack
 
-```text
-app/main.py                 FastAPI routes
-app/panchapakshi.py         Panchapakshi calculation + tables
-app/chart.py                Tithi and sunrise/sunset helper
-app/swetest.py              Swiss Ephemeris CLI wrapper
-app/templates/index.html    Small HTML shell
-app/static/js/app.js        Frontend rendering
-app/static/style.css        Styles
-```
+- Backend: Hono
+- Frontend: plain HTML/CSS/JS
+- Runtime: Node.js >= 18
 
-## Run
+No Python/FastAPI and no `swetest` dependency. Tithi and sunrise/sunset are calculated with lightweight JavaScript approximations.
+
+## Run locally
 
 ```bash
-cd /home/sami/panchapakshi.com
-python3 -m venv .venv
-. .venv/bin/activate
-pip install -r requirements.txt
-uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
+npm install
+npm start
 ```
 
-Open: http://localhost:8000
+Open:
+
+```text
+http://localhost:3000
+```
 
 ## API
 
@@ -34,4 +31,18 @@ GET /api/tables
 GET /health
 ```
 
-Requires `swetest` in PATH for live tithi and sunrise/sunset.
+## Hostinger
+
+Use Node.js app deployment.
+
+Start command:
+
+```bash
+npm start
+```
+
+Entry file:
+
+```text
+src/server.js
+```

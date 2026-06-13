@@ -1,0 +1,17 @@
+{
+  "name": "panchapakshi-com",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "latest",
+    "hono": "latest"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

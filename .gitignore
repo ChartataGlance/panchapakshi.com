@@ -1,7 +1,5 @@
-__pycache__/
-*.py[cod]
-.venv/
-app.log
-tunnel.log
-*.pid
+node_modules/
 .env
+*.log
+*.pid
+.DS_Store
