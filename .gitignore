@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.venv/
+app.log
+tunnel.log
+*.pid
+.env

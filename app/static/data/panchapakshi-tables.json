@@ -1,0 +1,462 @@
+{
+  "tables": {
+    "shukla_day": {
+      "acts": [
+        "Eat",
+        "Walk",
+        "Rule",
+        "Sleep",
+        "Death"
+      ],
+      "minutes": {
+        "Eat": 30,
+        "Walk": 36,
+        "Rule": 48,
+        "Sleep": 18,
+        "Death": 12
+      },
+      "birds": [
+        [
+          "Vulture",
+          "Owl",
+          "Crow",
+          "Cock",
+          "Peacock"
+        ],
+        [
+          "Owl",
+          "Crow",
+          "Cock",
+          "Peacock",
+          "Vulture"
+        ],
+        [
+          "Vulture",
+          "Owl",
+          "Crow",
+          "Cock",
+          "Peacock"
+        ],
+        [
+          "Owl",
+          "Crow",
+          "Cock",
+          "Peacock",
+          "Vulture"
+        ],
+        [
+          "Crow",
+          "Cock",
+          "Peacock",
+          "Vulture",
+          "Owl"
+        ],
+        [
+          "Cock",
+          "Peacock",
+          "Vulture",
+          "Owl",
+          "Crow"
+        ],
+        [
+          "Peacock",
+          "Vulture",
+          "Owl",
+          "Crow",
+          "Cock"
+        ]
+      ]
+    },
+    "shukla_night": {
+      "acts": [
+        "Eat",
+        "Rule",
+        "Death",
+        "Walk",
+        "Sleep"
+      ],
+      "minutes": {
+        "Eat": 30,
+        "Rule": 48,
+        "Death": 12,
+        "Walk": 36,
+        "Sleep": 18
+      },
+      "birds": [
+        [
+          "Crow",
+          "Cock",
+          "Peacock",
+          "Vulture",
+          "Owl"
+        ],
+        [
+          "Cock",
+          "Peacock",
+          "Vulture",
+          "Owl",
+          "Crow"
+        ],
+        [
+          "Crow",
+          "Cock",
+          "Peacock",
+          "Vulture",
+          "Owl"
+        ],
+        [
+          "Cock",
+          "Peacock",
+          "Vulture",
+          "Owl",
+          "Crow"
+        ],
+        [
+          "Peacock",
+          "Vulture",
+          "Owl",
+          "Crow",
+          "Cock"
+        ],
+        [
+          "Vulture",
+          "Owl",
+          "Crow",
+          "Cock",
+          "Peacock"
+        ],
+        [
+          "Owl",
+          "Crow",
+          "Cock",
+          "Peacock",
+          "Vulture"
+        ]
+      ]
+    },
+    "krishna_day": {
+      "acts": [
+        "Eat",
+        "Death",
+        "Sleep",
+        "Rule",
+        "Walk"
+      ],
+      "minutes": {
+        "Eat": 48,
+        "Death": 30,
+        "Sleep": 12,
+        "Rule": 18,
+        "Walk": 36
+      },
+      "birds": [
+        [
+          "Cock",
+          "Crow",
+          "Owl",
+          "Vulture",
+          "Peacock"
+        ],
+        [
+          "Peacock",
+          "Cock",
+          "Crow",
+          "Owl",
+          "Vulture"
+        ],
+        [
+          "Cock",
+          "Crow",
+          "Owl",
+          "Vulture",
+          "Peacock"
+        ],
+        [
+          "Crow",
+          "Owl",
+          "Vulture",
+          "Peacock",
+          "Cock"
+        ],
+        [
+          "Owl",
+          "Vulture",
+          "Peacock",
+          "Cock",
+          "Crow"
+        ],
+        [
+          "Vulture",
+          "Peacock",
+          "Cock",
+          "Crow",
+          "Owl"
+        ],
+        [
+          "Peacock",
+          "Cock",
+          "Crow",
+          "Owl",
+          "Vulture"
+        ]
+      ]
+    },
+    "krishna_night": {
+      "acts": [
+        "Eat",
+        "Sleep",
+        "Walk",
+        "Death",
+        "Rule"
+      ],
+      "minutes": {
+        "Eat": 42,
+        "Sleep": 18,
+        "Walk": 42,
+        "Death": 24,
+        "Rule": 18
+      },
+      "birds": [
+        [
+          "Vulture",
+          "Peacock",
+          "Cock",
+          "Crow",
+          "Owl"
+        ],
+        [
+          "Cock",
+          "Crow",
+          "Owl",
+          "Vulture",
+          "Peacock"
+        ],
+        [
+          "Vulture",
+          "Peacock",
+          "Cock",
+          "Crow",
+          "Owl"
+        ],
+        [
+          "Owl",
+          "Vulture",
+          "Peacock",
+          "Cock",
+          "Crow"
+        ],
+        [
+          "Crow",
+          "Owl",
+          "Vulture",
+          "Peacock",
+          "Cock"
+        ],
+        [
+          "Peacock",
+          "Cock",
+          "Crow",
+          "Owl",
+          "Vulture"
+        ],
+        [
+          "Cock",
+          "Crow",
+          "Owl",
+          "Vulture",
+          "Peacock"
+        ]
+      ]
+    }
+  },
+  "adhikara_padu": {
+    "shukla_day": [
+      [
+        "Vulture",
+        "Owl"
+      ],
+      [
+        "Owl",
+        "Crow"
+      ],
+      [
+        "Vulture",
+        "Cock"
+      ],
+      [
+        "Owl",
+        "Peacock"
+      ],
+      [
+        "Crow",
+        "Vulture"
+      ],
+      [
+        "Cock",
+        "Owl"
+      ],
+      [
+        "Peacock",
+        "Vulture"
+      ]
+    ],
+    "shukla_night": [
+      [
+        "Crow",
+        "Owl"
+      ],
+      [
+        "Cock",
+        "Crow"
+      ],
+      [
+        "Crow",
+        "Cock"
+      ],
+      [
+        "Cock",
+        "Peacock"
+      ],
+      [
+        "Peacock",
+        "Vulture"
+      ],
+      [
+        "Vulture",
+        "Owl"
+      ],
+      [
+        "Owl",
+        "Vulture"
+      ]
+    ],
+    "krishna_day": [
+      [
+        "Cock",
+        "Crow"
+      ],
+      [
+        "Peacock",
+        "Owl"
+      ],
+      [
+        "Cock",
+        "Vulture"
+      ],
+      [
+        "Crow",
+        "Peacock"
+      ],
+      [
+        "Owl",
+        "Cock"
+      ],
+      [
+        "Vulture",
+        "Peacock"
+      ],
+      [
+        "Peacock",
+        "Cock"
+      ]
+    ],
+    "krishna_night": [
+      [
+        "Vulture",
+        "Crow"
+      ],
+      [
+        "Cock",
+        "Owl"
+      ],
+      [
+        "Vulture",
+        "Vulture"
+      ],
+      [
+        "Owl",
+        "Peacock"
+      ],
+      [
+        "Crow",
+        "Cock"
+      ],
+      [
+        "Peacock",
+        "Peacock"
+      ],
+      [
+        "Unknown",
+        "Cock"
+      ]
+    ]
+  },
+  "atcharam": {
+    "shukla": {
+      "Cock": "எ",
+      "Crow": "உ",
+      "Owl": "இ",
+      "Vulture": "அ",
+      "Peacock": "ஒ"
+    },
+    "krishna": {
+      "Cock": "அ",
+      "Crow": "ஒ",
+      "Owl": "உ",
+      "Vulture": "இ",
+      "Peacock": "எ"
+    }
+  },
+  "relations": {
+    "Crow": {
+      "friends": [
+        "Vulture",
+        "Cock",
+        "Peacock"
+      ],
+      "enemies": [
+        "Owl"
+      ]
+    },
+    "Cock": {
+      "friends": [
+        "Peacock",
+        "Cock"
+      ],
+      "enemies": [
+        "Vulture",
+        "Owl"
+      ]
+    },
+    "Peacock": {
+      "friends": [
+        "Crow",
+        "Cock"
+      ],
+      "enemies": [
+        "Vulture",
+        "Owl"
+      ]
+    },
+    "Owl": {
+      "friends": [
+        "Vulture",
+        "Cock",
+        "Peacock"
+      ],
+      "enemies": [
+        "Crow"
+      ]
+    },
+    "Vulture": {
+      "friends": [
+        "Crow"
+      ],
+      "enemies": [
+        "Cock",
+        "Owl",
+        "Peacock"
+      ]
+    }
+  }
+}
