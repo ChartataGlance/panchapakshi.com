@@ -15,6 +15,7 @@ app.get('/api/panchapakshi', (req, res) => {
       time: req.query.time,
       lat: req.query.lat,
       lon: req.query.lon,
+      tzOffset: req.query.tzOffset,
     }));
   } catch (err) {
     res.status(400).json({ error: err.message || String(err) });
