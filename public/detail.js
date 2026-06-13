@@ -2,7 +2,6 @@ const $ = id => document.getElementById(id);
 const statusEl = $('detail-status');
 const visitorEl = $('visitor-info');
 const calcEl = $('calc-info');
-const rawEl = $('raw-info');
 const gpsBtn = $('gps-detail');
 
 function escapeHtml(value) {
@@ -70,7 +69,6 @@ async function loadDetails(lat, lon) {
     row('Day/night progress', `${Number(data.stats.progress).toFixed(1)}%`),
   ].join('');
 
-  rawEl.textContent = JSON.stringify(data, null, 2);
 }
 function useGps() {
   if (!window.isSecureContext) {
