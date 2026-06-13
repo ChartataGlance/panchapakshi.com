@@ -51,7 +51,7 @@ small, .section-title { display: block; color: #94a3b8; text-transform: uppercas
 @media (min-width: 680px) {
   .app { padding-top: 22px; }
   .controls { grid-template-columns: repeat(7, 1fr); }
-  .grid { grid-template-columns: 1fr 1fr; }
+  .grid { grid-template-columns: 1fr; }
   .rows { grid-template-columns: repeat(5, 1fr); }
   .row { min-height: 128px; }
   .quick-actions { max-width: 420px; margin-left: auto; margin-right: auto; }
